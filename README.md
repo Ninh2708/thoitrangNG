@@ -1,0 +1,2 @@
+# thoitrangNG
+NG shop
