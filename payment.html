@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="index.html" class="logo">NG SHOP<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="list.html">NỮ</a>
+            <a href="#gioithieu">NAM</a>
+            <a href="#tuýeninh">TRẺ EM</a>
+            <a class="hot-cl" href="#hoatdong">SALE</a>
+            <a href="#khoatu">BỘ SƯU TẬP</a>
+            <a href="#thongtin">THÔNG TIN</a>
+        </nav>
+
+        <div class="icons">
+            <input type="text" placeholder="Tìm Kiếm"><a href="" class="fas fa-search"></a>
+            <a href="cart.html" class="fas fa-shopping-bag"></a>
+            <a href="account.html" class="fas fa-user"></a>
+        </div>
+    </header>
+
+
+    <!-- _______________________________ -->
+
+    <sectinon class="payment">
+        <div class="container">
+            <div class="payment-top-wrap">
+                <div class="payment-top" style="margin: 158px;">
+                    <div class="payment-top-cart payment-top-item">
+                        <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                    <div class="payment-top-adress payment-top-item">
+                        <a href="delivery.html"><i class="fas fa-map-marked-alt"></i></a>
+                    </div>
+                    <div class="payment-top-payment payment-top-item">
+                        <a href="payment.html"><i class="fas fa-money-check-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-method-delivery">
+                        <p style="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-content-left-method-delivery-item">
+                            <input checked type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
+                        </div>
+                    </div>
+                    <div class="payment-content-left-method-payment">
+                        <p style="font-weight: bold;">Phương thức thanh toán</p>
+                        <p>Mọi giao dịch đều được bảo mật và mã hóa. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại.</p>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio" name="" id="">
+                            <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="img/visa.jpg" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input checked name="method-payment" type="radio" name="" id="">
+                            <label for="">Thanh toán bằng thẻ ATM(OnePay)</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="img/nganhang.png" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio" name="" id="">
+                            <label for="">Thanh toán Momo</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="img/momo.jpg" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio" name="" id="">
+                            <label for="">Thu tiền tận nơi</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input style="border: 1px solid #000;" type="text" placeholder="Mã giảm giá/Quà tặng">
+                        <button><i class="fas fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input style="border: 1px solid #000;" type="text" placeholder="Mã cộng tác viên">
+                        <button><i class="fas fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select style="border: 1px solid #000;" name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">D423</option>
+                            <option value="">D2542</option>
+                            <option value="">D4746</option>
+                            <option value="">D8568</option>
+                            <option value="">D1241</option>
+                        </select>
+                    </div>
+                    <div class="payment-content-right-buttom">
+                        <table class="table1">
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Giảm giá</th>
+                                <th>SL</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                            <tr>
+                                <td>Áo nữ cute <br>X / trắng <br>300.000<sup>đ</sup></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>300.000<sup>đ</sup></td>
+                            </tr>
+                        </table>
+                        <table class="table2">
+                            <tr>
+                                <th>Tổng tiền hàng</th>
+                            </tr>
+                            <tr>
+                                <td>300.000<sup>đ</sup></td>
+                            </tr>
+                        </table>
+                        <table class="table2">
+                            <tr>
+                                <th>Tạm tính</th>
+                            </tr>
+                            <tr>
+                                <td>300.000<sup>đ</sup></td>
+                            </tr>
+                        </table>
+                        <table class="table2">
+                            <tr>
+                                <th>Giao hàng chuyển phát nhanh - Chuyển phát nhanh</th>
+                            </tr>
+                            <tr>
+                                <td>0<sup>đ</sup></td>
+                            </tr>
+                        </table>
+                        <table class="table2">
+                            <tr>
+                                <th>Tiền thanh toán</th>
+                            </tr>
+                            <tr>
+                                <td>300.000<sup>đ</sup></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                </div>
+            <div class="payment-content-right-payment">
+                <button>TIẾP TỤC THANH TOÁN</button>
+            </div>
+        </div>
+    </sectinon>
+
+
+
+    <!-- -----footer---- -->
+    <section class="app-container">
+        <p>Tải ứng dụng NG Shop</p>
+        <div class="app-google">
+            <img src="img/googlePlay.jpg" alt="">
+            <img src="img/appStore.jpg" alt="">
+        </div>
+        <p>Nhận bản tin NG Shop</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+
+    <div class="footer-top">
+        <li><a href="">Liên Hệ</a></li>
+        <li><a href="">Tuyển Dụng</a></li>
+        <li><a href="">Giới Thiệu</a></li>
+        <li>
+            <a href="" class="fa-brands fa-facebook-f"></a>
+            <a href="" class="fa-brands fa-google"></a>
+            <a href="" class="fa-brands fa-tiktok"></a>
+        </li>
+    </div>
+    <div class="footer-center">
+        <p>Công ty cổ phần H.Giang với số đăng ký kinh doanh: 032* *** ****<br>
+            Địa chỉ đăng kí: Tổ dân phố ****, P.***, Quận ***, TP.Hà Nội, Việt Nam - 032* *** **** <br>
+            Đặt hàng online: <b>032* *** ****</b> .
+        </p>
+    </div>
+    
+    <div class="footer-bottom">
+        @dgjksdkjgbks
+    </div>
+
+    <script src="js/product.js"></script>
+</body>
+</html>

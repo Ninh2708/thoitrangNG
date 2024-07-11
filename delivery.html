@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="index.html" class="logo">NG SHOP<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="list.html">NỮ</a>
+            <a href="#gioithieu">NAM</a>
+            <a href="#tuýeninh">TRẺ EM</a>
+            <a class="hot-cl" href="#hoatdong">SALE</a>
+            <a href="#khoatu">BỘ SƯU TẬP</a>
+            <a href="#thongtin">THÔNG TIN</a>
+        </nav>
+
+        <div class="icons">
+            <input type="text" placeholder="Tìm Kiếm"><a href="" class="fas fa-search"></a>
+            <a href="cart.html" class="fas fa-shopping-bag"></a>
+            <a href="account.html" class="fas fa-user"></a>
+        </div>
+    </header>
+
+
+    <!-- _______________________________ -->
+
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-cart delivery-top-item">
+                        <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                    <div class="delivery-top-adress delivery-top-item">
+                        <a href="delivery.html"><i class="fas fa-map-marked-alt"></i></a>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <a href="payment.html"><i class="fas fa-money-check-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                         <i class="fas fa-sign-in-alt"></i>
+                         <p> <a href="account.html">Đăng nhập</a> (Nếu bạn đã có tài khoản của NG)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input  name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Đăng ký</span> (Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-button row">
+                        <a href="cart.html"><span>&#171;</span><p> Quay lại giỏ hàng</p></a>
+                        <button><p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p></button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>ÁO nữ cute</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>300.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td>ÁO nữ cute</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>300.000<sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;">600.000<sup>đ</sup></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;">60.000<sup>đ</sup></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;">660.000<sup>đ</sup></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- -----footer---- -->
+    <section class="app-container">
+        <p>Tải ứng dụng NG Shop</p>
+        <div class="app-google">
+            <img src="img/googlePlay.jpg" alt="">
+            <img src="img/appStore.jpg" alt="">
+        </div>
+        <p>Nhận bản tin NG Shop</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+
+    <div class="footer-top">
+        <li><a href="">Liên Hệ</a></li>
+        <li><a href="">Tuyển Dụng</a></li>
+        <li><a href="">Giới Thiệu</a></li>
+        <li>
+            <a href="" class="fa-brands fa-facebook-f"></a>
+            <a href="" class="fa-brands fa-google"></a>
+            <a href="" class="fa-brands fa-tiktok"></a>
+        </li>
+    </div>
+    <div class="footer-center">
+        <p>Công ty cổ phần H.Giang với số đăng ký kinh doanh: 032* *** ****<br>
+            Địa chỉ đăng kí: Tổ dân phố ****, P.***, Quận ***, TP.Hà Nội, Việt Nam - 032* *** **** <br>
+            Đặt hàng online: <b>032* *** ****</b> .
+        </p>
+    </div>
+    
+    <div class="footer-bottom">
+        @dgjksdkjgbks
+    </div>
+
+    <script src="js/product.js"></script>
+</body>
+</html>
